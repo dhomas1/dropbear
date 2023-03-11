@@ -1,6 +1,6 @@
 ### ZLIB ###
 _build_zlib() {
-local VERSION="1.2.8"
+local VERSION="1.2.13"
 local FOLDER="zlib-${VERSION}"
 local FILE="${FOLDER}.tar.gz"
 local URL="http://zlib.net/${FILE}"
@@ -16,7 +16,7 @@ popd
 
 ### DROPBEAR ###
 _build_dropbear() {
-local VERSION="2015.67"
+local VERSION="2022.83"
 local FOLDER="dropbear-${VERSION}"
 local FILE="${FOLDER}.tar.bz2"
 local URL="https://matt.ucc.asn.au/dropbear/releases/${FILE}"
